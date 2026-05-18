@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://4ZS8CHW9d96PEd8.2b30249edfbc:08PnTI0m9VA1vAC4FhBc@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/HTntsGx7jyeEcmwAaC2dnf?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663571816575/HTntsGx7jyeEcmwAaC2dnf",
+    "access_key_id": "ASIAZV3A2ECZBI6F72ZG",
+    "secret_access_key": "e1Vx1MAFR3/0JI3xTK/E6LElzhuiLOFcRilOfIwa",
+    "session_token": "IQoJb3JpZ2luX2VjEPH//////////wEaCXVzLWVhc3QtMSJHMEUCIQCmoMPcbQSXVZ3trFrNYjRx0OT1+V1XeXVhdsLHume4FAIgTsEGf4RHpvrt7z5vywU32l1E0Z12YpiiALeuvikkyboq/wMIuf//////////ARAEGgw2NjUzODYwOTg4NjYiDHrfk6TQrvCvubfV6CrTA7EZiuHPtE/NK8THhtH1yXKKc75znneBCuoE+yDtuYjxL9OI0R3NI9vBCeXfkt4MvvPQtMG1rgqD0+5yaTjxlnO4NQ53pBuKfPqYBFJu+plJZtq44FdKWo3Q0jR9XsVqT5RAn6mPyk4myrcqMeYD3yRsubkYdelO72ouLGDT5aaFGmRIvzbhG4EVjGCDq2lr27YeijmhjC1L4N1ajQVfKut/nKQfQra2NuLHqlSLbZyJTHgUNLDNGd+ECgqlxUVmFFZyFBqPdvAHk+x9M8QY6T0o6R9EL9voBZu3UkPcfG6wdnrXde7Y5SpDMx3eKjttoHB3aKTQSDuPuX/ugktijZKnH/vpy7vy76vdVH3NFDaEjRHHTZ2RyRJmVPR3PFKNDU8buxDMYOw9ZGwI+pZnBNwoghcCdBdyF79FAX6oierm1q+rnLoYPRcaB5T7qTqZF2BfKbNgMGrLzg+ty2rNYV116VaH3tewctWmQ3j7AzP91bP3Iqnx76DJajsRD9BcV0Oa8tUFZ/i0D+vTJnd84uqZyYv5hBwkx2HBPpY9sGDRlAGGI9ERZ8zBarhv5kX4dIIUJPvuvrqfoIg54Dxxqic4+tnJrfXlAIO6nBIa6NvoCrZ7MOOTq9AGOp0BIDq6qb2cEDGV0HD5lIBCHB3CK0IcpSn7cj82de9ZW7hRLAvZH+IHZZP8IT/R6ZSUHT88cpoNTy/4S8RWMXpnvWjLh6txEWkbdwmMw3iu8atuyUAkykknuTH/jWiDGl3yoryMcvfizeu+Mxputbd4cxabx2G1niC3Z++PyWDXg+3yL1b7dtucUOwbfsK1NLBhE7baicRJ6drQBiyU0g==",
+    "expiration": "2026-05-18T20:12:19.000Z"
+  },
+  "name": "credit_risk_scoring_app",
+  "path": "/home/ubuntu/credit_risk_scoring_app",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "FefobXNKfHwexsqnt3KRwd",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "kSbjcgxWUy5BouHVPTL7wB",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Anubhav Kapoor",
+    "OWNER_OPEN_ID": "gxHzagGhwELaiNdAnDByDF",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "58f1076d-d3ea-4837-b6fd-12d0bde570bd",
+    "VITE_APP_ID": "HTntsGx7jyeEcmwAaC2dnf",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Credit Risk Scoring Application",
+    "VITE_FRONTEND_FORGE_API_KEY": "bXk86VbgzUUnTx9R8jVaTG",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
